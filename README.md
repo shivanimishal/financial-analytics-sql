@@ -3,15 +3,15 @@
 ## Business Problem
 A procurement and payments function operating across multiple invoicing
 platforms and global regions needs visibility into invoice aging, SLO
-compliance, vendor spend concentration, and early payment discount
-opportunity. This project models that environment in SQL — from schema
+compliance, vendor spend concentration, and discounting
+opportunities. This project models that environment in SQL — from schema
 design through to the analytical queries that drive operational decisions.
  
 ## Business Skills Demonstrated
-- **Domain expertise:** Schema designed around real P2P workflows — aging
-  buckets, SLO compliance, EPD opportunity sizing, and bridge analysis
+- **Domain expertise:** Schema designed around real workflows — aging
+  buckets, SLO compliance, discounting opportunity sizing, and bridge analysis
 - **Stakeholder thinking:** Queries structured to answer the questions
-  that MD-level audiences actually ask in monthly reporting cycles
+  that senior stakeholders ask in monthly reporting cycles
 - **Data governance:** CHECK constraints, referential integrity, and NULL
   handling reflect production-standard data quality thinking
  
@@ -36,11 +36,11 @@ design through to the analytical queries that drive operational decisions.
 | 1 | Invoice Aging Buckets | Cash flow risk, escalation priority |
 | 2 | SLO Compliance by Region | Monthly management reporting |
 | 3 | Period-over-Period Volume | Bridge analysis, trend reporting |
-| 4 | Vendor Spend + EPD Opportunity | EPD programme feasibility |
+| 4 | Vendor Spend + Discounting Opportunity | Discounting programme feasibility |
 | 5 | Platform Exception Rate | Root cause, data quality |
 | 6 | SLO Breach Root Cause | MD-level deep dive analysis |
 | 7 | Cumulative YTD Spend | Budget tracking, forecasting |
-| 8 | Payment Behaviour Segmentation | EPD effectiveness analysis |
+| 8 | Payment Behaviour Segmentation | Discounting effectiveness analysis |
  
 ## How to Run
 No installation required. Paste the schema and queries into
