@@ -44,11 +44,11 @@ design through to the analytical queries that drive operational decisions.
  
 ## How to Run
 No installation required. Paste the schema and queries into
-[DB Fiddle](https://www.db-fiddle.com) — a free browser-based SQL tool.
-Select PostgreSQL as the engine.
+[SQL Fiddle](sqlfiddle.com) — a free browser-based SQL tool.
+Select SQL Server as the engine.
  
 ## Tools
-SQL (PostgreSQL) · Python (synthetic data generation)
+SQL (SQL Server ) · Python (synthetic data generation)
  
 ## Author
 Shivani Mishal
